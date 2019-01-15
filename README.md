@@ -2,7 +2,7 @@
 
 1. What is the result of the following code? Explain your answer.
   ```
-  var fullname = 'John Doe';
+  var fullname = 'John Doe'; 
   var obj = {
      fullname: 'Colin Ihrig',
      prop: {
@@ -19,7 +19,9 @@
   
   console.log(test());
   ```
-
+The result to the following code above will result in 'Aurelio De Rosa' from the Second Scope. In the code the Global
+and First Scope are being ignore the code is changing into something different and at the end there is a var test being 
+directed to the function in the Second Scope. 
 2. What will you see in the console for the following example?
   ```
   var a = 1; 
@@ -29,8 +31,9 @@
       function a() {} 
   } 
   b(); 
-  console.log(a);    
-  ```
+  console.log(a); 
+  In the following example, the console will be seen as 1 because of the scope inside has blocked the a =10 and is only
+  focusing on the variable created. 
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
 

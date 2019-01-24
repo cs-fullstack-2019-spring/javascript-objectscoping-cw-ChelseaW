@@ -1,3 +1,5 @@
+### KEY: Some work here, but code not functional
+
 # JavaScript Object/Scope Classwork
 
 1. What is the result of the following code? Explain your answer.
